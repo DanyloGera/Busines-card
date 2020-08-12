@@ -7,4 +7,4 @@ You can find me:
 3. call me  
 
 **I will make a site for you that will interest people and satisfy you.**  
-__I work for you! Together we will make a prototype and design and on me the embodiment of the idea!__  
+_I work for you! Together we will make a prototype and design and on me the embodiment of the idea!_  
