@@ -1,0 +1,42 @@
+header, aside, main, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid navy;
+}
+a {
+  text-decoration: none;
+  color: #020140;
+}
+img {
+  width: 130px;
+  height: 100px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: 'header header header'
+                        'menu content content'
+                        'footer footer footer';
+  grid-auto-rows: 100px;
+}
+header {
+  grid-area: header;
+
+}
+aside {
+  grid-area: menu;
+}
+main {
+  grid-area: content;
+}
+footer {
+  grid-area: footer;
+}
